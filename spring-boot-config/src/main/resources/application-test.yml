@@ -1,0 +1,15 @@
+my:
+   greeting: Hello
+app:
+    name: jeevan
+    description: welcome to ${app.name}
+
+db:
+   connection: "test-config-starter-here"
+   host: 129.0.0.1
+   port: 2400
+
+management.endpoints.web.exposure.include: "*"
+
+
+

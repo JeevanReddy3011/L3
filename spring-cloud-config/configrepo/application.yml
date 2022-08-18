@@ -1,0 +1,10 @@
+my:
+   greeting: Hello
+app:
+    name: jeevan
+    description: welcome to ${app.name}
+
+db:
+   connection: connection-config-server
+   host: 127.0.0.1
+   port: 1200
